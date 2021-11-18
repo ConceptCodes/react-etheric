@@ -2,7 +2,7 @@ import { CashIcon } from "@heroicons/react/outline";
 
 export default function AccountCard() {
   return (
-    <figure className="flex w-full lg:w-1/2 flex-col space-y-10 bg-black text-white p-10">
+    <figure className="flex w-full xl:w-1/2 flex-col space-y-10 bg-black text-white p-10">
       <div className="flex justify-between pb-4 border-b-2">
         <h1 className="text-2xl">Accounts and Cards</h1>
         <p className="text-gray-400">recently created</p>

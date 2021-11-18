@@ -7,7 +7,7 @@
 
 @layer components {
   .sidebar-btn {
-    @apply flex items-center hover:border-l-4 hover:border-black text-xl;
+    @apply flex items-center active:border-l-4 active:border-black text-xl cursor-pointer;
   }
 
   .header-card {
@@ -23,11 +23,11 @@
   }
 
   .sidebar-icon {
-    @apply h-5 text-black mx-5;
+    @apply h-3 lg:h-3 text-black mx-3 lg:mx-5;
   }
 
   .sidebar-title {
-    @apply text-3xl font-medium;
+    @apply text-xl lg:text-3xl xl:text-6xl font-medium;
   }
 }
 

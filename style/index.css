@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .sidebar-btn {
+    @apply flex items-center hover:border-l-4 hover:border-black text-xl;
+  }
+
+  .header-card {
+    @apply flex space-x-4 items-center;
+  }
+
+  .header-icon {
+    @apply p-5 bg-gray-300 rounded-full flex items-center justify-center;
+  }
+
+  .transaction-icon {
+    @apply p-3 rounded-full flex items-center justify-center;
+  }
+
+  .sidebar-icon {
+    @apply h-5 text-black mx-5;
+  }
+
+  .sidebar-title {
+    @apply text-3xl font-medium;
+  }
+}
+
+@layer utilities {
+}

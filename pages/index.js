@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className="flex">
         <Sidebar />
-        <section className="py-2 flex flex-col w-full space-y-5 px-10">
+        <section className="py-2 flex flex-col w-full space-y-5 px-10 overflow-scroll overflow-y-auto">
           <header className="flex justify-between mb-10">
             <ul className="flex space-x-10">
               <li className="header-card">

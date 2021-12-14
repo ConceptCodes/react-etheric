@@ -27,7 +27,7 @@
   }
 
   .sidebar-title {
-    @apply text-xl lg:text-3xl xl:text-6xl font-medium;
+    @apply text-xl lg:text-3xl font-medium;
   }
 }
 

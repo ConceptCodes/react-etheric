@@ -3,7 +3,7 @@ import { ArchiveIcon, LightBulbIcon, RefreshIcon, ChipIcon, QrcodeIcon, CreditCa
 
 export default function Sidebar() {
     return (
-        <section className="hidden xl:inline-block flex-col h-screen w-[250px] bg-gray-200">
+        <section className="hidden xl:inline-block sticky flex-col h-screen w-[250px] bg-gray-200">
             <h1 className="font-medium text-3xl m-5 pb-20">Etheric</h1>
 
         <ul className="space-y-10">
